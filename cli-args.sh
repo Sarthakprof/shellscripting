@@ -7,6 +7,9 @@ echo "Quoted Values: $@"
 echo "Quoted Values: $*"
 echo "Total Number of Parameters : $#"
 
+# to know about exit status of last line
+echo $?
+
 # input: sh cli-args.sh Zara ALi
 
 # below output is example of special variable
