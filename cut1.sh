@@ -19,3 +19,6 @@ cut -c2-7 $1
 #D
 #G
 cut -f-3 $1
+
+#print from thirteenth character to the end
+cut -c13- $1
