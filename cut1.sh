@@ -22,3 +22,7 @@ cut -f-3 $1
 
 #print from thirteenth character to the end
 cut -c13- $1
+
+
+#Given a sentence, identify and display its fourth word, use space as delimeter
+cut -d '' -f4
