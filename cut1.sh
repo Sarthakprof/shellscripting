@@ -26,3 +26,9 @@ cut -c13- $1
 
 #Given a sentence, identify and display its fourth word, use space as delimeter
 cut -d '' -f4
+
+#Given a sentence, identify and display first three words
+cut -d ' ' -f0-3 
+
+#Given a tab delimited file with several columns (tsv format) print the fields from second fields to last field.
+cut -f2- $1
