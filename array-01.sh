@@ -33,3 +33,6 @@ echo ${arr[@]/*[aA]*/}
 a=($(cat))
 echo ${a[3]}
 
+#count the list of elements
+arr=($(cat))
+echo ${#arr[@]}
