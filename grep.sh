@@ -9,3 +9,5 @@
 
 
 grep -iw "that\|the\|then\|those"
+
+grep '\([0-9]\) *\1'
