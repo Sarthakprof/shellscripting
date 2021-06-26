@@ -36,3 +36,9 @@ echo ${a[3]}
 #count the list of elements
 arr=($(cat))
 echo ${#arr[@]}
+
+
+#concatenate the arrray elements 3 reps
+array=($(cat))
+Total=("${array[@]}" "${array[@]}" "${array[@]}")
+echo ${Total[@]}
